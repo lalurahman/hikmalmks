@@ -222,6 +222,7 @@
                     <a href="index.html"><img
                             alt="image"
                             src="assets/images/logo-web.png"
+                            width="50"
                         ></a>
                 </div>
                 <div class="menu-close-btn">
@@ -237,13 +238,16 @@
                 <li>
                     <a href="#">Berita</a>
                 </li>
-                <li><a href="contact.html">Tentang Kami</a></li>
-                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Kontak</a></li>
             </ul>
         </div>
         <div class="nav-right d-flex align-items-center gap-5">
+            <div class="mobile-menu-btn d-lg-none d-block">
+                <h5 class="text-dark mb-0">MENU</h5>
+            </div>
             <div class="eg-btn btn--primary2 header-btn">
-                <a href="contact.html">Registrasi</a>
+                <a href="#">Registrasi</a>
             </div>
         </div>
     </header>
@@ -304,7 +308,7 @@
         <div class="banner2-pagination d-flex justify-content-center flex-row align-items-center gap-2"></div>
     </div>
 
-
+    {{-- 
     <div class="about-section2 pt-120">
         <img
             src="assets/images/bg/about2-vector.png"
@@ -379,142 +383,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
-
-    <div class="service2-section pt-120 pb-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="section-title2 primary4">
-                        <span>-What We Offer-</span>
-                        <div>
-                            <h3>Our Best Solution</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center g-4">
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="service-item2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.2s"
-                    >
-                        <img
-                            src="assets/images/icons/service21.svg"
-                            class="service21-icon"
-                            alt="image"
-                        >
-                        <div class="service-content">
-                            <span>01</span>
-                            <h4><a href="service-details.html">Website Devolopment</a></h4>
-                            <p class="para">Lorem Ipsum is simply dummy text of free available in market the way
-                                printin and typesetting industry has been</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="service-item2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.4s"
-                    >
-                        <img
-                            src="assets/images/icons/service22.svg"
-                            class="service21-icon"
-                            alt="image"
-                        >
-                        <div class="service-content">
-                            <span>02</span>
-                            <h4><a href="service-details.html">Ui/Ux Creative Design</a></h4>
-                            <p class="para">Lorem Ipsum is simply dummy text of free available in market the way
-                                printin and typesetting industry has been</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="service-item2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.6s"
-                    >
-                        <img
-                            src="assets/images/icons/service23.svg"
-                            class="service21-icon"
-                            alt="image"
-                        >
-                        <div class="service-content">
-                            <span>03</span>
-                            <h4><a href="service-details.html">Web Security</a></h4>
-                            <p class="para">Lorem Ipsum is simply dummy text of free available in market the way
-                                printin and typesetting industry has been</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="service-item2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.8s"
-                    >
-                        <img
-                            src="assets/images/icons/service24.svg"
-                            class="service21-icon"
-                            alt="image"
-                        >
-                        <div class="service-content">
-                            <span>04</span>
-                            <h4><a href="service-details.html">Consultancy Services</a></h4>
-                            <p class="para">Lorem Ipsum is simply dummy text of free available in market the way
-                                printin and typesetting industry has been</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="service-item2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="1s"
-                    >
-                        <img
-                            src="assets/images/icons/service25.svg"
-                            class="service21-icon"
-                            alt="image"
-                        >
-                        <div class="service-content">
-                            <span>05</span>
-                            <h4><a href="service-details.html">Content Writing</a></h4>
-                            <p class="para">Lorem Ipsum is simply dummy text of free available in market the way
-                                printin and typesetting industry has been</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="service-item2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="1.2s"
-                    >
-                        <img
-                            src="assets/images/icons/service26.svg"
-                            class="service21-icon"
-                            alt="image"
-                        >
-                        <div class="service-content">
-                            <span>06</span>
-                            <h4><a href="service-details.html">Digital Marketing</a></h4>
-                            <p class="para">Lorem Ipsum is simply dummy text of free available in market the way
-                                printin and typesetting industry has been</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="portfolio-section pb-120">
+    {{-- <div class="portfolio-section pb-120">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6">
@@ -608,166 +479,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <div class="job-section pb-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="section-title2 primary5">
-                        <span>- Our Jobs-</span>
-                        <div>
-                            <h3>Our Recent Job Post</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center g-4">
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="jobpost-item hover-border2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.2s"
-                    >
-                        <div class="job-header">
-                            <div class="icon">
-                                <img
-                                    src="assets/images/icons/job-icon1.svg"
-                                    alt="image"
-                                >
-                            </div>
-                            <h4 class="title"><a href="job-details.html">Ui/Ux Designer Wanted</a></h4>
-                        </div>
-                        <div class="job-body">
-                            <p class="para">We’re hiring Want craft the best social media job vacancy or hiring post?
-                                Get inspired by these examples.</p>
-                            <ul class="job-meta">
-                                <li><img
-                                        src="assets/images/icons/location-prm2.svg"
-                                        alt="image"
-                                    >London, UK</li>
-                                <li><img
-                                        src="assets/images/icons/time-prm2.svg"
-                                        alt="image"
-                                    >Full Time</li>
-                            </ul>
-                        </div>
-                        <div class="job-footer">
-                            <div class="eg-btn btn--primary2-light btn--sm">1 Day Ago</div>
-                            <a
-                                href="job-details.html"
-                                class="eg-btn btn--primary2 btn--sm"
-                            >Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="jobpost-item hover-border2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.2s"
-                    >
-                        <div class="job-header">
-                            <div class="icon">
-                                <img
-                                    src="assets/images/icons/job-icon2.svg"
-                                    alt="image"
-                                >
-                            </div>
-                            <h4 class="title"><a href="job-details.html">Frontend Developer</a></h4>
-                        </div>
-                        <div class="job-body">
-                            <p class="para">We’re hiring Want craft the best social media job vacancy or hiring post?
-                                Get inspired by these examples.</p>
-                            <ul class="job-meta">
-                                <li><img
-                                        src="assets/images/icons/location-prm2.svg"
-                                        alt="image"
-                                    >London, UK</li>
-                                <li><img
-                                        src="assets/images/icons/time-prm2.svg"
-                                        alt="image"
-                                    >Full Time</li>
-                            </ul>
-                        </div>
-                        <div class="job-footer">
-                            <div class="eg-btn btn--primary2-light btn--sm">2 Days Ago</div>
-                            <a
-                                href="job-details.html"
-                                class="eg-btn btn--primary2 btn--sm"
-                            >Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="jobpost-item hover-border2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.2s"
-                    >
-                        <div class="job-header">
-                            <div class="icon">
-                                <img
-                                    src="assets/images/icons/job-icon3.svg"
-                                    alt="image"
-                                >
-                            </div>
-                            <h4 class="title"><a href="job-details.html">WordPress Developer</a></h4>
-                        </div>
-                        <div class="job-body">
-                            <p class="para">We’re hiring Want craft the best social media job vacancy or hiring post?
-                                Get inspired by these examples.</p>
-                            <ul class="job-meta">
-                                <li><img
-                                        src="assets/images/icons/location-prm2.svg"
-                                        alt="image"
-                                    >London, UK</li>
-                                <li><img
-                                        src="assets/images/icons/time-prm2.svg"
-                                        alt="image"
-                                    >Full Time</li>
-                            </ul>
-                        </div>
-                        <div class="job-footer">
-                            <div class="eg-btn btn--primary2-light btn--sm">3 Days Ago</div>
-                            <a
-                                href="job-details.html"
-                                class="eg-btn btn--primary2 btn--sm"
-                            >Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="video-section pt-120 pb-120">
-        <img
-            src="assets/images/bg/video-vctr-top.png"
-            class="video-vctr-top"
-            alt="image"
-        >
-        <img
-            src="assets/images/bg/video-vctr-bottom.png"
-            class="video-vctr-bottom"
-            alt="image"
-        >
-        <div class="container-fluid text-center">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <h2>Mission is to Protect Your Business and More</h2>
-                    <div class="video-play style-3">
-                        <a
-                            href="https://www.youtube.com/watch?v=u31qwQUeGuM"
-                            class="popup-youtube video-icon"
-                        ><i class="bx bx-play"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </div> --}}
 
 
     <div class="team-section2 pt-120 pb-120">
@@ -775,15 +487,15 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="section-title2 primary4">
-                        <span>- Our Team-</span>
+                        <span>- Struktur Pengurus -</span>
                         <div>
-                            <h3>Meet Talent & Experience</h3>
+                            <h3>Periode 2023/2024</h3>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row d-flex justify-content-center g-4">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                <div class="col-6 col-md-3">
                     <div
                         class="single-team2 wow fadeInDown"
                         data-wow-duration="1.5s"
@@ -794,292 +506,66 @@
                                 src="assets/images/bg/team21.png"
                                 alt="image"
                             >
-                            <div class="social-area gap-3">
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-row gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="team-content">
-                            <h4 class="name">Marvin McKinney</h4>
-                            <p class="designation">Marvin McKinney</p>
+                            <h4 class="name">Ahmad</h4>
+                            <p class="designation">Ketua Umum</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                <div class="col-6 col-md-3">
                     <div
                         class="single-team2 wow fadeInDown"
                         data-wow-duration="1.5s"
-                        data-wow-delay="0.4s"
+                        data-wow-delay="0.2s"
                     >
                         <div class="team-image">
                             <img
-                                src="assets/images/bg/team22.png"
+                                src="assets/images/bg/team21.png"
                                 alt="image"
                             >
-                            <div class="social-area gap-3">
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-row gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="team-content">
-                            <h4 class="name">Cameron Williamson</h4>
-                            <p class="designation">Web Developer</p>
+                            <h4 class="name">Ahmad</h4>
+                            <p class="designation">Wakil Ketua</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                <div class="col-6 col-md-3">
                     <div
                         class="single-team2 wow fadeInDown"
                         data-wow-duration="1.5s"
-                        data-wow-delay="0.6s"
+                        data-wow-delay="0.2s"
                     >
                         <div class="team-image">
                             <img
-                                src="assets/images/bg/team23.png"
+                                src="assets/images/bg/team21.png"
                                 alt="image"
                             >
-                            <div class="social-area gap-3">
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-row gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="team-content">
-                            <h4 class="name">Brooklyn Simmons</h4>
-                            <p class="designation">Ui/Ux Designer</p>
+                            <h4 class="name">Ahmad</h4>
+                            <p class="designation">Sekretaris</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                <div class="col-6 col-md-3">
                     <div
                         class="single-team2 wow fadeInDown"
                         data-wow-duration="1.5s"
-                        data-wow-delay="0.8s"
+                        data-wow-delay="0.2s"
                     >
                         <div class="team-image">
                             <img
-                                src="assets/images/bg/team24.png"
+                                src="assets/images/bg/team21.png"
                                 alt="image"
                             >
-                            <div class="social-area gap-3">
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-row gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="team-content">
-                            <h4 class="name">Arlene McCoy</h4>
-                            <p class="designation">Graphic Designer</p>
+                            <h4 class="name">Ahmad</h4>
+                            <p class="designation">Bendahara</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="single-team2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="1s"
-                    >
-                        <div class="team-image">
-                            <img
-                                src="assets/images/bg/team25.png"
-                                alt="image"
-                            >
-                            <div class="social-area gap-3">
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-row gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4 class="name">Savannah Nguyen</h4>
-                            <p class="designation">Programmer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="single-team2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="1.2s"
-                    >
-                        <div class="team-image">
-                            <img
-                                src="assets/images/bg/team26.png"
-                                alt="image"
-                            >
-                            <div class="social-area gap-3">
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-row gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4 class="name">Lincoln Anthony</h4>
-                            <p class="designation">Manager</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="testimonial-section2 pb-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="section-title2 primary3">
-                        <span>-Testimonial-</span>
-                        <div>
-                            <h3>Our Client Feedback</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center position-relative">
-                <div class="swiper testimonial-slider2 swiper-fix">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div
-                                class="testimonial-single2 hover-border2 wow fadeInDown"
-                                data-wow-duration="1.5s"
-                                data-wow-delay=".4s"
-                            >
-                                <div class="quote">
-                                    <img
-                                        alt="image"
-                                        src="assets/images/icons/quote-white.svg"
-                                        class="quote-icon"
-                                    >
-                                </div>
-                                <img
-                                    src="assets/images/bg/testi2-bg.svg"
-                                    alt="image"
-                                    class="testi2-bg"
-                                >
-                                <div class="author">
-                                    <div class="author-img">
-                                        <img
-                                            src="assets/images/bg/client21.png"
-                                            alt="image"
-                                        >
-                                    </div>
-                                    <div class="author-desig">
-                                        <h5>Johan Martin Sr</h5>
-                                        <p>Product Manager</p>
-                                    </div>
-                                </div>
-                                <p class="para">You have been absolutely wonderful for Kinship Center, & I can't
-                                    thank you enough for all your tremendous skills, support and patience specially
-                                    during our merger. You will always be Kinship Center's vendor of choice!</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div
-                                class="testimonial-single2 hover-border2 wow fadeInDown"
-                                data-wow-duration="1.5s"
-                                data-wow-delay=".4s"
-                            >
-                                <div class="quote">
-                                    <img
-                                        alt="image"
-                                        src="assets/images/icons/quote-white.svg"
-                                        class="quote-icon"
-                                    >
-                                </div>
-                                <img
-                                    src="assets/images/bg/testi2-bg.svg"
-                                    alt="image"
-                                    class="testi2-bg"
-                                >
-                                <div class="author">
-                                    <div class="author-img">
-                                        <img
-                                            src="assets/images/bg/client22.png"
-                                            alt="image"
-                                        >
-                                    </div>
-                                    <div class="author-desig">
-                                        <h5>David Watson</h5>
-                                        <p>Product Manager</p>
-                                    </div>
-                                </div>
-                                <p class="para">You have been absolutely wonderful for Kinship Center, & I can't
-                                    thank you enough for all your tremendous skills, support and patience specially
-                                    during our merger. You will always be Kinship Center's vendor of choice!</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div
-                                class="testimonial-single2 hover-border2 wow fadeInDown"
-                                data-wow-duration="1.5s"
-                                data-wow-delay=".4s"
-                            >
-                                <div class="quote">
-                                    <img
-                                        alt="image"
-                                        src="assets/images/icons/quote-white.svg"
-                                        class="quote-icon"
-                                    >
-                                </div>
-                                <img
-                                    src="assets/images/bg/testi2-bg.svg"
-                                    alt="image"
-                                    class="testi2-bg"
-                                >
-                                <div class="author">
-                                    <div class="author-img">
-                                        <img
-                                            src="assets/images/bg/client21.png"
-                                            alt="image"
-                                        >
-                                    </div>
-                                    <div class="author-desig">
-                                        <h5>James Anderson</h5>
-                                        <p>Product Manager</p>
-                                    </div>
-                                </div>
-                                <p class="para">You have been absolutely wonderful for Kinship Center, & I can't
-                                    thank you enough for all your tremendous skills, support and patience specially
-                                    during our merger. You will always be Kinship Center's vendor of choice!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-bottom d-flex justify-content-center align-items-center">
-                    <div class="swiper-pagination2 style-2 text-center"></div>
                 </div>
             </div>
         </div>
@@ -1091,10 +577,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="section-title2 primary6">
-                        <span>-Our Blog-</span>
-                        <div>
-                            <h3>Learn From Blog</h3>
-                        </div>
+                        <span>- Berita Terbaru -</span>
                     </div>
                 </div>
             </div>
@@ -1113,83 +596,13 @@
                             >
                         </div>
                         <div class="blog-content hover-border2">
-                            <span>Ui/Ux Design</span>
-                            <h4><a href="blog-details.html">How to Create a Useful & Excellent Optimized Section</a>
+                            {{-- <span>Ui/Ux Design</span> --}}
+                            <h4><a href="#">Pelantikan Pengurus Baru Hikmal periode 2023/2024</a>
                             </h4>
                             <div class="blog-meta">
-                                <div class="author-img">
-                                    <img
-                                        src="assets/images/blog/blog-author1.png"
-                                        alt="image"
-                                    >
-                                </div>
                                 <div class="designation">
-                                    <h5>Sara Watson</h5>
-                                    <div class="date">March 24, 2022<span>18 min Read</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="sigle-blog-1 style-2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.4s"
-                    >
-                        <div class="blog-image">
-                            <img
-                                src="assets/images/blog/blog12.png"
-                                class="img-fluid"
-                                alt="image"
-                            >
-                        </div>
-                        <div class="blog-content hover-border2">
-                            <span>Web Develpment</span>
-                            <h4><a href="blog-details.html">Overcoming Blockers: How to Build Your Red Tape Toolkit</a>
-                            </h4>
-                            <div class="blog-meta">
-                                <div class="author-img">
-                                    <img
-                                        src="assets/images/blog/blog-author2.png"
-                                        alt="image"
-                                    >
-                                </div>
-                                <div class="designation">
-                                    <h5>James Cookie</h5>
-                                    <div class="date">March 24, 2022<span>18 min Read</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div
-                        class="sigle-blog-1 style-2 wow fadeInDown"
-                        data-wow-duration="1.5s"
-                        data-wow-delay="0.6s"
-                    >
-                        <div class="blog-image">
-                            <img
-                                src="assets/images/blog/blog13.png"
-                                class="img-fluid"
-                                alt="image"
-                            >
-                        </div>
-                        <div class="blog-content hover-border2">
-                            <span>Ui/Ux Design</span>
-                            <h4><a href="blog-details.html">A lifestyle you always being the focal point is
-                                    innately.</a></h4>
-                            <div class="blog-meta">
-                                <div class="author-img">
-                                    <img
-                                        src="assets/images/blog/blog-author3.png"
-                                        alt="image"
-                                    >
-                                </div>
-                                <div class="designation">
-                                    <h5>Sania Borua</h5>
-                                    <div class="date">March 24, 2022<span>18 min Read</span></div>
+                                    {{-- <h5>Sara Watson</h5> --}}
+                                    <div class="date">18 Juli 2023<span>18x Dibaca</span></div>
                                 </div>
                             </div>
                         </div>
@@ -1219,174 +632,7 @@
     </div>
 
 
-    <div class="sponsor-section pt-80 pb-80">
-        <div class="container">
-            <div class="row align-items-center justify-content-lg-start justify-content-center">
-                <div class="col-md-6 text-lg-start text-center">
-                    <div class="section-title primary5 text-lg-start text-center mb-0">
-                        <span>-Our Partners-</span>
-                        <h3 class="mb-0">People Who Trust Us</h3>
-                    </div>
-                </div>
-                <div class="col-md-6 d-lg-flex justify-content-end d-none">
-                    <div class="slider-arrows2 text-center d-flex gap-4">
-                        <div
-                            class="sponsor-prev1 swiper-prev-arrow"
-                            tabindex="0"
-                            role="button"
-                            aria-label="Previous slide"
-                        >
-                            <svg
-                                width="46"
-                                height="46"
-                                viewbox="0 0 46 46"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <circle
-                                    cx="23"
-                                    cy="23"
-                                    r="22.25"
-                                    stroke-width="1.5"
-                                />
-                                <path
-                                    d="M20 27.573V23V18.427C20 18.2574 19.8022 18.1648 19.672 18.2734L14 23L19.672 27.7266C19.8022 27.8352 20 27.7426 20 27.573Z"
-                                />
-                                <path
-                                    d="M32 23.5C32.2761 23.5 32.5 23.2761 32.5 23C32.5 22.7239 32.2761 22.5 32 22.5V23.5ZM19.672 27.7266L19.9921 27.3425V27.3425L19.672 27.7266ZM14 23L13.6799 22.6159L13.219 23L13.6799 23.3841L14 23ZM19.672 18.2734L19.3519 17.8893L19.3519 17.8893L19.672 18.2734ZM32 22.5H20V23.5H32V22.5ZM19.5 23V27.573H20.5V23H19.5ZM19.9921 27.3425L14.3201 22.6159L13.6799 23.3841L19.3519 28.1107L19.9921 27.3425ZM14.3201 23.3841L19.9921 18.6575L19.3519 17.8893L13.6799 22.6159L14.3201 23.3841ZM19.5 18.427V23H20.5V18.427H19.5ZM19.9921 18.6575C19.7967 18.8203 19.5 18.6814 19.5 18.427H20.5C20.5 17.8335 19.8078 17.5093 19.3519 17.8893L19.9921 18.6575ZM19.5 27.573C19.5 27.3186 19.7967 27.1797 19.9921 27.3425L19.3519 28.1107C19.8078 28.4907 20.5 28.1665 20.5 27.573H19.5Z"
-                                />
-                            </svg>
-                        </div>
-                        <div
-                            class="sponsor-next1 swiper-next-arrow"
-                            tabindex="0"
-                            role="button"
-                            aria-label="Next slide"
-                        >
-                            <svg
-                                width="46"
-                                height="46"
-                                viewbox="0 0 46 46"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <circle
-                                    cx="23"
-                                    cy="23"
-                                    r="23"
-                                />
-                                <path
-                                    d="M26 18.427V23V27.573C26 27.7426 26.1978 27.8352 26.328 27.7266L32 23L26.328 18.2734C26.1978 18.1648 26 18.2574 26 18.427Z"
-                                />
-                                <path
-                                    d="M14 22.5C13.7239 22.5 13.5 22.7239 13.5 23C13.5 23.2761 13.7239 23.5 14 23.5V22.5ZM26.328 18.2734L26.0079 18.6575V18.6575L26.328 18.2734ZM32 23L32.3201 23.3841L32.781 23L32.3201 22.6159L32 23ZM26.328 27.7266L26.6481 28.1107L26.6481 28.1107L26.328 27.7266ZM14 23.5H26V22.5H14V23.5ZM26.5 23V18.427H25.5V23H26.5ZM26.0079 18.6575L31.6799 23.3841L32.3201 22.6159L26.6481 17.8893L26.0079 18.6575ZM31.6799 22.6159L26.0079 27.3425L26.6481 28.1107L32.3201 23.3841L31.6799 22.6159ZM26.5 27.573V23H25.5V27.573H26.5ZM26.0079 27.3425C26.2033 27.1797 26.5 27.3186 26.5 27.573H25.5C25.5 28.1665 26.1922 28.4907 26.6481 28.1107L26.0079 27.3425ZM26.5 18.427C26.5 18.6814 26.2033 18.8203 26.0079 18.6575L26.6481 17.8893C26.1922 17.5093 25.5 17.8335 25.5 18.427H26.5Z"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center position-relative mt-60">
-                <div
-                    class="swiper sponsor-slider swiper-fix wow fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.2s"
-                >
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a
-                                href="#"
-                                class="single-sponsor "
-                            >
-                                <img
-                                    src="assets/images/bg/sponsor1.png"
-                                    alt="image"
-                                >
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a
-                                href="#"
-                                class="single-sponsor "
-                            >
-                                <img
-                                    src="assets/images/bg/sponsor2.png"
-                                    alt="image"
-                                >
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a
-                                href="#"
-                                class="single-sponsor "
-                            >
-                                <img
-                                    src="assets/images/bg/sponsor3.png"
-                                    alt="image"
-                                >
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a
-                                href="#"
-                                class="single-sponsor "
-                            >
-                                <img
-                                    src="assets/images/bg/sponsor5.png"
-                                    alt="image"
-                                >
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a
-                                href="#"
-                                class="single-sponsor "
-                            >
-                                <img
-                                    src="assets/images/bg/sponsor6.png"
-                                    alt="image"
-                                >
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a
-                                href="#"
-                                class="single-sponsor "
-                            >
-                                <img
-                                    src="assets/images/bg/sponsor4.png"
-                                    alt="image"
-                                >
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a
-                                href="#"
-                                class="single-sponsor "
-                            >
-                                <img
-                                    src="assets/images/bg/sponsor3.png"
-                                    alt="image"
-                                >
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a
-                                href="#"
-                                class="single-sponsor "
-                            >
-                                <img
-                                    src="assets/images/bg/sponsor5.png"
-                                    alt="image"
-                                >
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <footer class="style-2 ">
+    <footer class="style-2 mt-5">
         <img
             src="assets/images/bg/footer-vectr1.png"
             class="footer-vectr1 img-fluid"
@@ -1397,7 +643,7 @@
             class="footer-vectr2 img-fluid"
             alt="image"
         >
-        <div class="footer-top">
+        {{-- <div class="footer-top">
             <div class="container">
                 <div class="row gy-5">
                     <div class="col-lg-3 col-md-6">
@@ -1508,24 +754,18 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="footer-bottom">
             <div class="container">
                 <div class="row d-flex align-items-center g-3">
                     <div class="col-lg-6 d-flex justify-content-lg-start justify-content-center">
-                        <p>Copyright 2022 <a
+                        <p>Copyright {{ date('Y') }} <a
                                 href="#"
                                 class="egns-lab"
-                            >Spinner</a> | Design By <a
-                                href="https://themeforest.net/category/site-templates?term=egenslab"
+                            >Hikmal Makassar</a> | Develop By <a
+                                href="https://ahadunstudio.com/"
                                 class="egns-lab"
-                            >Egens Lab</a></p>
-                    </div>
-                    <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center align-items-center">
-                        <ul class="f-bottom-list d-flex jusify-content-start align-items-center">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                        </ul>
+                            >Ahadun Studio</a></p>
                     </div>
                 </div>
             </div>
